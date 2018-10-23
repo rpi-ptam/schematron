@@ -1,0 +1,22 @@
+{
+  "name": "@rpi-ptam/schematron",
+  "version": "0.0.1",
+  "description": "database migration library for parking ticket appeal management system",
+  "scripts": {
+    "migrate": "node-pg-migrate --config-file config/default.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpi-ptam/schematron.git"
+  },
+  "author": "Aaron J. Shapiro, Joshua Berman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpi-ptam/schematron/issues"
+  },
+  "homepage": "https://github.com/rpi-ptam/schematron#readme",
+  "dependencies": {
+    "node-pg-migrate": "^3.11.0",
+    "pg": "^7.5.0"
+  }
+}
