@@ -1,0 +1,7 @@
+module.exports = (pgm) => {
+  var statement = "INSERT INTO violation_types (type) VALUES "
+    + "('EXPIRED_METER_OR_NO_HANG_TAG'), ('WRONG_PERMIT_OR_NO_PERMIT'), ('TRAVEL_LANE_OR_PARKING_PROHIBITED'), "
+    + "('FIRE_LANES_AND_HYDRANTS'), ('HINDERING_SNOW_REMOVAL'), ('FAILURE_TO_COMPLY_WITH_TRAFFIC_DEVICE'), "
+    + "('HANDICAP_VIOLATION'), ('UNAUTHORIZED_HANG_TAG'), ('ALL_OTHER_VIOLATION')";
+  pgm.db.query(statement);
+};
