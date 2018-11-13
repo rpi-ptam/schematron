@@ -3,6 +3,7 @@
 
 Creation of the database migrations utilizing `node-pg-migrate`. 
 
+
 _Authored by:_
  - Aaron J. Shapiro
  - Alex Ford
@@ -19,7 +20,8 @@ The latest version of [Node.js](https://nodejs.org/en/) > _(v8.0.0)_ should be i
 
 #### Dependency Installation
 Install PostgreSQL version 10. Installiation instructions are here: [PostgreSQL Downloads](https://www.postgresql.org/download/)
-Once all system-dependencies are installed, run`npm install`
+
+Once all system-dependencies are installed, run `npm install`
 
 
 #### Configuration
