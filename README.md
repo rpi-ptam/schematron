@@ -6,10 +6,8 @@ Creation of the database migrations utilizing `node-pg-migrate`.
 
 _Authored by:_
  - Aaron J. Shapiro
- - Alex Ford
  - Dylan L. Cheung
- - Joshua Berman
- - William Zawilinski
+ - Joshua A. Berman
  
 ----------
 
